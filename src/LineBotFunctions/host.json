@@ -1,0 +1,29 @@
+{
+    "version": "2.0",
+    "extensionBundle": {
+        "id": "Microsoft.Azure.Functions.ExtensionBundle",
+        "version": "[4.*, 5.0.0)"
+    },
+    "http": {
+        "routePrefix": "api"
+    },
+    "logging": {
+        "logLevel": {
+            "default": "Information",
+            "DurableTask.AzureStorage": "Warning",
+            "DurableTask.Core": "Warning"
+        },
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true
+            }
+        }
+    },
+    "durableTask": {
+        "hubName": "LineBotTaskHub",
+        "storageProvider": {
+            "type": "AzureStorage",
+            "connectionStringName": "AzureWebJobsStorage"
+        }
+    }
+}

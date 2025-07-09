@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "LINE_CHANNEL_ACCESS_TOKEN": "tiydB9ro5dIMKX13WiVUHaLP3FEHuyiZ1B0mXfBBaHvpJNgI7YwUPUJvlPSwi0VYk59QrWng6f8x0D4FNh/OFVqs79xVcnclUnxqna7MIBGdyekxYxlK4arb0XOJiaWdEZ19HpaU62MrZNH2ZhFEiQdB04t89/1O/w1cDnyilFU=",
+    "AZURE_AI_PROJECT_ENDPOINT": "https://agent-ai-serviceszb4jkg2v6tldq.services.ai.azure.com/api/projects/project-demozb4jkg2v6tldq",
+    "AZURE_AI_AGENT_ID": "asst_SQ9MtSCgEIU0Isjrc14pmRdA"
+  }
+}
